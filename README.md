@@ -1,2 +1,2 @@
-# koa-ts-template
-koa and typescript template
+## koa-ts-template
+koa + es6 + typeScript universal template
