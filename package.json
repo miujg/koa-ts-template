@@ -4,7 +4,7 @@
   "description": "koa es6 ts ",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/app.ts"
+    "dev": "nodemon --watch src/**/* -e ts,tsx --exec ts-node src/app.ts"
   },
   "repository": {
     "type": "git",
