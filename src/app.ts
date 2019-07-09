@@ -1,8 +1,9 @@
-import Koa from 'koa'
-// const Koa = require('koa')
+import * as Koa from 'koa'
+import {test} from './test/test'
 
-const app = new Koa
+console.log('xxx111 sdh')
+test()
 
-app.listen(3000, ()=>{console.log('server start...')})
+const app =  new Koa
 
-// "start": " tsc && babel-node src/app.js --presets es2015,stage-2",
+app.listen(3001, ()=>{console.log('server start...')})
